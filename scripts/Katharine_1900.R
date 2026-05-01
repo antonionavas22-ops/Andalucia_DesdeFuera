@@ -1,78 +1,70 @@
-#Comprobaciones previas
-#Ruta donde está alojado el pgrograma
+# CCOMPROBACIONES PREVIAS
+#primer paso: Ver la ruta
 getwd()
-# función para verificar que el realto de viaje y los documentos excel están alojados correctamente
+#segundo paso: ver si están los documentos csv
 list.files()
-# fin de comprobaciones
-# incio de la carga del relato de viaje
+#tercer paso: cargar el relato
 relato <- readLines("1900_Bates_spanish_Highway_Bayway.txt", encoding = "UTF-8")
-# Se adapta a R
-libro <- paste(relato, collapse = " ") 
-#PASO IMPORTANTE A CONTINUACIÓN. se debería de cargar los paqeuetes, pero por los problemas de normaliazión. este paso se sustuye por tolower.
-#Como tidytext ha dado error, no se tokniza, pero se convierte todo en minuscula
-#TOLOWER
-libro_previo <- tolower(libro)
-# SE cargan los paquetes del tidyverse para el análisis
-install.packages("tidyverse”) 
-library("tidyverse")
-#Ahora se cargan las tablas apra cruzar los resultados en formato csv para evitar problemas
+#COMIENZO DE LAS OPERACIONES PARA AJUSTARSE A R
+#cuarto paso: cambio de estructura para trabajar con R
+libro <- paste(relato, collapse = " ")
+#quinto paso: todo a minúscula para trabajar con R
+#OJO, no se hace con tidytext, porque no nos interesa para la lista csv que queremos cruzar, pues son palabras compuestas
+libro_previo <- tolower(libro) 
+#sexto paso: se instala el ecosistema tidyverse que incluye los paquetes y sus funciones para las operaciones
+install.packages("tidyverse")
+#Una vez instalado, se carga
+library("tidyverse") 
+#AHORA LAS OPERACIONES CON LOS TRES CSV (LOCALIIDADES, PATRIMONIO MATERIAL E INMATERIAL)
+#septimo paso: se cargan sin necesidad de caragr el paquete readr, pues ya está instalado e incluido en tidyverse
 localidades <- read_csv("localidades_normalizacion.csv")
-#Confirmamos que está todo Ok
-glimpse(localidades)
 View(localidades)
-#Mismo procedeimeinto con el resto
 patrimonio_material <- read_csv("patrimonio_material_normalizacion.csv")
 View(patrimonio_material)
 patrimonio_inmaterial <- read_csv("patrimonio_inmaterial_normalizacion.csv")
-View(patrimonio_inmaterial)
-#LO MAS IMPORTANTE, la operación añadiendo las funciones de los paQUETES DEL TU¡IDYVERSE INSTALADOS
-#no es necesario caragrlos
+View(patrimonio_inmaterial) 
+#octavo paso: se hacen las operaciones, una por cada csv
+#se usa las mismas funciones de los paquetes de tidyverse, como dplyr, magrittr, readr o stringr
+#localidades
 resultado <- localidades %>%
   mutate(menciones = str_count(libro_previo, fixed(variantes))) %>%
   filter(menciones > 0) %>%
   arrange(desc(menciones))
-
+# lo visualizamos en la tabla
 View(resultado)
-#Ahora se exporta el resultado para poderlo guardar en GutHub
-write_csv(resultado, "resultado_localidades_Bates.csv")
-# Ahora mismo proceso pero con los elementos del aptrimonio
-#PATRIMONIO MATERIAL
+#mismo proceso con patrimonio material
 resultado_material <- patrimonio_material %>%
-mutate(menciones = str_count(libro_previo, fixed(variantes))) %>%
-filter(menciones > 0) %>%
-arrange(desc(menciones))
+  mutate(menciones = str_count(libro_previo, fixed(variantes))) %>%
+  filter(menciones > 0) %>%
+  arrange(desc(menciones))
+#visualizamos el resultado
 View(resultado_material)
-
-# A continuación se xporta los resultados del amterial
-
-write_csv(resultado_material, "resultado_material_Bates.csv") 
-
-# Por último el inmaterial y su resultados
-
+#mismo proceso con patrimonio inmaterial
 resultado_inmaterial <- patrimonio_inmaterial %>%
-mutate(menciones = str_count(libro_previo, fixed(variantes))) %>%
-filter(menciones > 0) %>%
-arrange(desc(menciones))
+  mutate(menciones = str_count(libro_previo, fixed(variantes))) %>%
+  filter(menciones > 0) %>%
+  arrange(desc(menciones))
 View(resultado_inmaterial)
-
-# al igual que los anteriores, se exporta´
-
+#noveno paso: se exportan los resultados de cada uno fuera de R
+#localidades
+write_csv(resultado, "resultado_localidades_Bates.csv") 
+#patrimonio material
+write_csv(resultado_material, "resultado_material_Bates.csv")
+#patrimonio inmaterial
 write_csv(resultado_inmaterial, "resultado_inmaterial_Bates.csv") 
-
-#Ahora procedemos a crear las GRÁFICAS
-#Se crea una nueva tabla por tipo de patrimonio
-resultado <- resultado %>% mutate(tipo = "localidades")
-resultado_material <- resultado_material %>% mutate(tipo = "patrimonio material")                
-resultado_inmaterial <- resultado_inmaterial %>% mutate(tipo = "patrimonio inmaterial")
-# A continuación s eunen las tres, pero respetando la integridad de cada una de ellas
+#décimo paso: creación de gráficas conjuntas en mismo espacio, pero manteninedo cada una su integridad
+resultado <- resultado %>% mutate(tipo = "localidades") 
+resultado_material <- resultado_material %>% mutate(tipo = "patrimonio material")
+resultado_inmaterial <- resultado_inmaterial %>% mutate(tipo = "patrimonio inmaterial") 
+#se une la nueva tabla apra cada uno
 todo <- bind_rows(resultado, resultado_material, resultado_inmaterial)
-# Y por último se representa visualmente
+#undécimo paso: representación visual de la gráfica
 top20 <- todo %>%
-  top20 <- todo %>%
   group_by(tipo) %>%
   slice_max(menciones, n = 20) %>%
   ungroup()
-
+#duodécimo paso y últtimo que une todo lo anterior del preoceso de gráfica
+#crecaicón definitiva con nuevas funciones y nuevo paquete diferente:ggplot
 ggplot(top20, aes(x = reorder(principal, menciones), y = menciones, fill = tipo)) +
   geom_col() +
   coord_flip() +
@@ -81,5 +73,5 @@ ggplot(top20, aes(x = reorder(principal, menciones), y = menciones, fill = tipo)
        x = NULL, y = "Menciones") +
   theme_minimal() +
   theme(legend.position = "none")
-
-ggsave("grafica_Bates.png", width = 12, height = 8)
+#dédimotercer paso o epílogo: exportación a imagen
+ggsave("grafica_Bates.png", width = 12, height = 8) 
