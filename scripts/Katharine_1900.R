@@ -10,6 +10,9 @@ relato <- readLines("1900_Bates_spanish_Highway_Bayway.txt", encoding = "UTF-8")
 libro <- paste(relato, collapse = " ")
 #quinto paso: todo a minúscula para trabajar con R
 #OJO, no se hace con tidytext, porque no nos interesa para la lista csv que queremos cruzar, pues son palabras compuestas
+# Y el paquete tidytexto incluye el tokenizador y separaría las palabras compuestas
+#por tanto, se usa la función independiente de tolower
+#tokenizar se reserva para el análisis de sentimientos
 libro_previo <- tolower(libro) 
 #sexto paso: se instala el ecosistema tidyverse que incluye los paquetes y sus funciones para las operaciones
 install.packages("tidyverse")
@@ -27,23 +30,24 @@ View(patrimonio_inmaterial)
 #se usa las mismas funciones de los paquetes de tidyverse, como dplyr, magrittr, readr o stringr
 #localidades
 resultado <- localidades %>%
-  mutate(menciones = str_count(libro_previo, fixed(variantes))) %>%
+  mutate(menciones = str_count(libro_previo, paste0("\\b", variantes, "\\b"))) %>%
   filter(menciones > 0) %>%
   arrange(desc(menciones))
 # lo visualizamos en la tabla
 View(resultado)
 #mismo proceso con patrimonio material
 resultado_material <- patrimonio_material %>%
-  mutate(menciones = str_count(libro_previo, fixed(variantes))) %>%
+  mutate(menciones = str_count(libro_previo, paste0("\\b", variantes, "\\b"))) %>%
   filter(menciones > 0) %>%
   arrange(desc(menciones))
 #visualizamos el resultado
 View(resultado_material)
 #mismo proceso con patrimonio inmaterial
 resultado_inmaterial <- patrimonio_inmaterial %>%
-  mutate(menciones = str_count(libro_previo, fixed(variantes))) %>%
+  mutate(menciones = str_count(libro_previo, paste0("\\b", variantes, "\\b"))) %>%
   filter(menciones > 0) %>%
   arrange(desc(menciones))
+#visualizamos el resultado
 View(resultado_inmaterial)
 #noveno paso: se exportan los resultados de cada uno fuera de R
 #localidades
@@ -59,13 +63,13 @@ resultado_inmaterial <- resultado_inmaterial %>% mutate(tipo = "patrimonio inmat
 #se une la nueva tabla apra cada uno
 todo <- bind_rows(resultado, resultado_material, resultado_inmaterial)
 #undécimo paso: representación visual de la gráfica
-top20 <- todo %>%
+top25 <- todo %>%
   group_by(tipo) %>%
-  slice_max(menciones, n = 20) %>%
+  slice_max(menciones, n = 25) %>%
   ungroup()
 #duodécimo paso y últtimo que une todo lo anterior del preoceso de gráfica
 #crecaicón definitiva con nuevas funciones y nuevo paquete diferente:ggplot
-ggplot(top20, aes(x = reorder(principal, menciones), y = menciones, fill = tipo)) +
+ggplot(top25, aes(x = reorder(principal, menciones), y = menciones, fill = tipo)) +
   geom_col() +
   coord_flip() +
   facet_wrap(~tipo, scales = "free_y") +
