@@ -155,11 +155,13 @@ cantaoras,cantaoras
 guardia civil,guardia civil
 guardia civil,civil guard
 bandolero,bandit
+bandoleros,bandits
 bandolero,bandolero
 contrabandista,contrabandista
 pernales,pernales
 tempranillo,tempranillo
-gitano,gipsy
+gitano,gypsy
+gitanos,gypsies
 gitano,gitano
 gitano,gitanos
 gitana,gitana
@@ -176,10 +178,12 @@ mendigo,mendigo
 vagabundo,tramp
 vagabundo,vagabundo
 mujer,girl
+mujeres,girls
 mujer,woman
+mujeres,women
 mujer,lady
 mujer,mujer
-mujer,mujeres
+mujeres,mujeres
 mujer,senorita
 mujer,señorita
 mujer,senora
@@ -190,10 +194,12 @@ mujer,señora
 árabe,árabe
 árabe,arabe
 musulmán,muslim
+musulmanes,moslems
 musulmán,moslem
 musulmán,musulmán
 musulman,musulman
 moro,moor
+moros,moors
 moro,moorish
 baile,dance
 baile,baile
@@ -236,12 +242,19 @@ virgen,virgin
 virgen,virgen
 corrida,corrida
 toreo,novillada
-plaza,plaza
-plaza de toros,bull-fight
-plaza de toros,bullfight
+toreo,bullfighting
+toreos,bullfightings
+toreo,bull-fighting
+toreos,bull-fightings
+corrida,bull-fight
+corrida,bullfight
+corridas,bullfights
+corridas,bull-fights
 plaza de toros,bullring
 torero,bullfighter
+toreros,bullfighters
 torero,torero
+toreros,toreros
 tendido,tendido
 banderillero,banderillero
 cuadrilla,cuadrilla
