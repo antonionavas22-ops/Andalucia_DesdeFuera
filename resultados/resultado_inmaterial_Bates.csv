@@ -1,16 +1,16 @@
 principal,variantes,menciones
 andaluz,andalusian,32
-mujer (lady),lady,27
-procesión (procession),procession,26
-mujeres (women),women,24
+mujer,lady,27
+procesión,procession,26
+mujeres,women,24
 virgen,virgin,22
-moro (moorish),moorish,16
+moro,moorish,16
 gitano,gypsy,15
 gitanos,gypsies,14
-mujer (girl),girl,14
+mujer,girl,14
 pobre,poor,13
-procesión (pageant),pageant,12
-mujeres (girls),girls,11
+procesión,pageant,12
+mujeres,girls,11
 belleza,beauty,10
 campesino,peasant,10
 feria,fair,10
@@ -21,9 +21,9 @@ semana santa,holy week,9
 sol,sun,8
 orgulloso,proud,8
 religioso,religious,8
-mujer (senora),senora,8
+mujer,senora,8
 sevillano,sevillian,7
-mujer (woman),woman,7
+mujer,woman,7
 carnaval,carnival,7
 mantilla,shawl,6
 mantillas,mantillas,6
@@ -43,6 +43,7 @@ corpus christi,corpus christi,4
 guitarra,guitar,4
 calor,heat,3
 tradición,tradition,3
+cigarreras,cigarette-makers,3
 hacedores,makers,3
 granadino,granadine,3
 árabe,arab,3
