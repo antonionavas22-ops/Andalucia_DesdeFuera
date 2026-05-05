@@ -50,7 +50,7 @@ patio,courtyard,2
 plaza,plaza,2
 cobre,copper,2
 tabaco,cigarette,2
-diligencia,carriage,2
+Carruaje,carriage,2
 guadalete,guadalete,2
 montaña,mountain,2
 rios,rivers,2
@@ -71,6 +71,8 @@ plaza,square,1
 vino,vino,1
 cigarros,cigarettes,1
 camino,road,1
-diligencia,carriages,1
+sendero,path,1
+viaje,journey,1
+Carruajes,carriages,1
 genil,genil,1
 mulhacén,mulhacen,1
