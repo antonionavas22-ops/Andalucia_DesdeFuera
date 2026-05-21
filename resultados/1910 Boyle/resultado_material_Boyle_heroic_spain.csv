@@ -1,0 +1,85 @@
+principal,variantes,menciones
+"iglesia (monumento, común)",church,41
+"ciudad (público,común)",city,37
+"catedral (monumento, común)",cathedral,31
+"ciudad (público,común)",town,18
+"calle (público,común)",streets,16
+"alhambra (monumento, propio)",alhambra,12
+"mar  (espacio natural, común)",sea,11
+"patio (público,común)",patio,10
+"casa (público,común)",house,9
+"parque (público,común)",park,9
+"alcázar (monumento, propio)",alcázar,8
+"calle (público,común)",street,7
+"casa (público,común)",houses,7
+"ciudad (público,común)",towns,6
+"parque (público,común)",parks,6
+"montaña  (espacio natural, común)",mountains,6
+"mezquita (monumento, propio)",mosque,5
+"muralla (monumento, común)",walls,5
+"palacio (monumento, común)",palace,5
+"sol (espacio natural, común)",sun,5
+"giralda (monumento, propio)",giralda,4
+"capilla (monumento, común)",capilla,4
+"capilla (monumento, común)",chapel,4
+"casa (público,común)",casa,4
+"jardín (público,común)",garden,4
+"plaza (público,común)",square,4
+"velo  (consumo, objeto)",veil,4
+"Carruaje (viaje, transporte)",carriage,4
+"tren (viaje, transporte)",train,4
+"itálica (monumento, propio)",italica,3
+"mezquita (monumento, propio)",mezquita,3
+"sierpes (público,propio)",sierpes,3
+"ciudad (público,común)",cities,3
+"patio (público,común)",court,3
+"fuente (consumo, objeto)",fountain,3
+"mantilla  (consumo, objeto)",mantilla,3
+"mantilla  (consumo, objeto)",mantillas,3
+"caballo (viaje, animal)",horse,3
+"del sur  (espacio natural, común)",southern,3
+"generalife (monumento, propio)",generalife,2
+"iglesia (monumento, común)",churches,2
+"muralla (monumento, común)",wall,2
+"triana (público,propio)",triana,2
+"pueblo (público,común)",village,2
+"patio (público,común)",courtyard,2
+"patio (público,común)",patios,2
+"hospital (público,común)",hospital,2
+"mantilla  (consumo, objeto)",shawls,2
+"hotel (consumo, establecimiento)",hotel,2
+"Carruaje (viaje, transporte)",carriages,2
+"caballo (viaje, animal)",horses,2
+"darro  (espacio natural, propio)",darro,2
+"del sur  (espacio natural, común)",south,2
+"casa de pilatos (monumento, propio)",casa de pilatos,1
+"capilla (monumento, común)",chapels,1
+"catedral (monumento, común)",cathedrals,1
+"puente (monumento, común)",puente,1
+"albaicín (público,propio)",albaicín,1
+"barrio (público,común)",quarter,1
+"plaza (público,común)",plazas,1
+"cementerio (público,común)",cemetery,1
+"paseo (público,común)",paseo,1
+"fuente (consumo, objeto)",fountains,1
+"abanico (consumo, objeto)",fan,1
+"mantilla  (consumo, objeto)",shawl,1
+"peineta  (consumo, objeto)",hair comb,1
+"peineta  (consumo, objeto)",comb,1
+"peineta  (consumo, objeto)",combs,1
+"velo  (consumo, objeto)",veils,1
+"vino (consumo, alimentación)",wine,1
+"vino (consumo, alimentación)",sherry,1
+"aceite (consumo, alimentación)",oil,1
+"tabaco (consumo, alimentación)",tobacco,1
+"café  (consumo, alimentación)",coffee,1
+"bodega (consumo, establecimiento)",bodegas,1
+"diligencia (viaje, transporte)",diligence,1
+"tren (viaje, transporte)",trains,1
+"toro (viaje, animal)",bull,1
+"toro (viaje, animal)",bulls,1
+"mula (viaje, animal)",mules,1
+"sierra nevada  (espacio natural, propio)",sierra nevada,1
+"rio  (espacio natural, común)",river,1
+"mina (espacio natural, común)",mine,1
+"cobre (espacio natural, común)",copper,1
