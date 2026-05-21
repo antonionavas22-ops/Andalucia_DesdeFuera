@@ -1,0 +1,133 @@
+principal,variantes,menciones
+"casa (público,común)",house,53
+"catedral (monumento, común)",cathedral,37
+"ciudad (público,común)",city,35
+"iglesia (monumento, común)",church,24
+"ciudad (público,común)",town,22
+"sol (espacio natural, común)",sun,22
+"puente (monumento, común)",bridge,20
+"jardín (público,común)",garden,19
+"rio  (espacio natural, común)",river,19
+"patio (público,común)",court,18
+"patio (público,común)",patio,18
+"plaza (público,común)",plaza,18
+"mezquita (monumento, propio)",mosque,16
+"calle (público,común)",street,16
+"capilla (monumento, común)",chapel,15
+"casa (público,común)",houses,15
+"muralla (monumento, común)",wall,14
+"calle (público,común)",streets,14
+"toro (viaje, animal)",bull,14
+"giralda (monumento, propio)",giralda,13
+"mula (viaje, animal)",mule,13
+"muralla (monumento, común)",walls,12
+"abanico (consumo, objeto)",fan,11
+"itálica (monumento, propio)",italica,10
+"palacio (monumento, común)",palace,10
+"caballo (viaje, animal)",horse,10
+"calle (público,común)",calle,9
+"mantilla  (consumo, objeto)",mantilla,9
+"velo  (consumo, objeto)",veil,9
+"vino (consumo, alimentación)",wine,9
+"mula (viaje, animal)",mules,9
+"mar  (espacio natural, común)",sea,9
+"montaña  (espacio natural, común)",mountains,9
+"plaza (público,común)",square,8
+"fuente (consumo, objeto)",fountain,8
+"Carruaje (viaje, transporte)",carriage,8
+"toro (viaje, animal)",bulls,8
+"montaña  (espacio natural, común)",mountain,8
+"guitarra  (consumo, objeto)",guitar,7
+"tren (viaje, transporte)",train,7
+"caballo (viaje, animal)",horses,7
+"guadalquivir  (espacio natural, propio)",guadalquivir,7
+"alhambra (monumento, propio)",alhambra,6
+"teatro (público,común)",theatre,6
+"capa española (consumo, objeto)",cloak,6
+"aceite (consumo, alimentación)",oil,6
+"cobre (espacio natural, común)",copper,6
+"capilla (monumento, común)",capilla,5
+"ciudad (público,común)",cities,5
+"pueblo (público,común)",village,5
+"peseta (consumo, objeto)",pesetas,5
+"capa española (consumo, objeto)",capa,5
+"tabaco (consumo, alimentación)",cigarette,5
+"café  (consumo, alimentación)",coffee,5
+"hotel (consumo, establecimiento)",hotel,5
+"del sur  (espacio natural, común)",south,5
+"cortijo (público,común)",farm,4
+"patio (público,común)",courtyard,4
+"circo (público,común)",circus,4
+"paseo (público,común)",paseo,4
+"fuente (consumo, objeto)",fountains,4
+"uva (consumo, alimentación)",grapes,4
+"Carruaje (viaje, transporte)",carriages,4
+"burro (viaje, animal)",donkey,4
+"alcázar (monumento, propio)",alcazar,3
+"iglesia (monumento, común)",churches,3
+"barrio (público,común)",quarters,3
+"pueblo (público,común)",pueblo,3
+"café  (consumo, alimentación)",cafes,3
+"catedral (monumento, común)",cathedrals,2
+"palacio (monumento, común)",palaces,2
+"puerto (monumento, común)",port,2
+"ruina (monumento, común)",ruins,2
+"albaicín (público,propio)",albaicin,2
+"barrio (público,común)",quarter,2
+"casa (público,común)",casa,2
+"ciudad (público,común)",towns,2
+"ciudad (público,común)",ciudad,2
+"plaza (público,común)",squares,2
+"guitarra  (consumo, objeto)",guitars,2
+"mantilla  (consumo, objeto)",mantillas,2
+"peineta  (consumo, objeto)",combs,2
+"olla (consumo, alimentación)",olla,2
+"tabaco (consumo, alimentación)",cigarettes,2
+"mercado (consumo, establecimiento)",market,2
+"mercado (consumo, establecimiento)",markets,2
+"posada (consumo, establecimiento)",inn,2
+"tren (viaje, transporte)",trains,2
+"burro (viaje, animal)",donkeys,2
+"generalife (monumento, propio)",generalife,1
+"capilla (monumento, común)",chapels,1
+"claustro (monumento, común)",cloister,1
+"claustro (monumento, común)",cloister,1
+"iglesia (monumento, común)",iglesia,1
+"puerto (monumento, común)",ports,1
+"ruina (monumento, común)",ruin,1
+"sierpes (público,propio)",sierpes,1
+"triana (público,propio)",triana,1
+"calle (público,común)",calles,1
+"pueblo (público,común)",villages,1
+"pueblo (público,común)",pueblos,1
+"parque (público,común)",park,1
+"parque (público,común)",parque,1
+"patio (público,común)",courts,1
+"patio (público,común)",patios,1
+"plaza (público,común)",plazas,1
+"plaza de toros (público,común)",bull-ring,1
+"paseo (público,común)",promenade,1
+"paseo (público,común)",promenades,1
+"molino (consumo, objeto)",mills,1
+"abanico (consumo, objeto)",abanicos,1
+"capa española (consumo, objeto)",cloaks,1
+"faja roja  (consumo, objeto)",sash,1
+"mantilla  (consumo, objeto)",shawl,1
+"mantilla  (consumo, objeto)",shawls,1
+"velo  (consumo, objeto)",veils,1
+"vino (consumo, alimentación)",vino,1
+"ajo (consumo, alimentación)",garlic,1
+"tabaco (consumo, alimentación)",tobacco,1
+"café  (consumo, alimentación)",cafe,1
+"uva (consumo, alimentación)",grape,1
+"posada (consumo, establecimiento)",inns,1
+"fonda (consumo, establecimiento)",fonda,1
+"fonda (consumo, establecimiento)",fondas,1
+"ferrocarril (viaje, transporte)",railroad,1
+"ferrocarril (viaje, transporte)",railroads,1
+"buey (viaje, animal)",ox,1
+"buey (viaje, animal)",oxen,1
+"sol (espacio natural, común)",sol,1
+"rio  (espacio natural, común)",rivers,1
+"mina (espacio natural, común)",mine,1
+"mina (espacio natural, común)",mina,1
