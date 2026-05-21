@@ -1,0 +1,100 @@
+principal,variantes,menciones
+"ciudad (público,común)",city,26
+"catedral (monumento, común)",cathedral,22
+"alhambra (monumento, propio)",alhambra,19
+"sol (espacio natural, común)",sun,19
+"del sur  (espacio natural, común)",south,19
+"patio (público,común)",court,17
+"capilla (monumento, común)",capilla,16
+"muralla (monumento, común)",walls,13
+"patio (público,común)",patio,13
+"casa (público,común)",houses,12
+"mezquita (monumento, propio)",mosque,11
+"iglesia (monumento, común)",church,11
+"muralla (monumento, común)",wall,11
+"ciudad (público,común)",town,11
+"capilla (monumento, común)",chapel,10
+"calle (público,común)",streets,10
+"casa (público,común)",house,10
+"mar  (espacio natural, común)",sea,10
+"palacio (monumento, común)",palace,9
+"alcázar (monumento, propio)",alcázar,8
+"calle (público,común)",street,8
+"puerto (monumento, común)",port,7
+"barrio (público,común)",quarter,7
+"mezquita (monumento, propio)",mezquita,6
+"darro  (espacio natural, propio)",darro,6
+"rio  (espacio natural, común)",river,6
+"puente (monumento, común)",bridge,5
+"fuente (consumo, objeto)",fountain,5
+"del sur  (espacio natural, común)",southern,5
+"ruina (monumento, común)",ruin,4
+"albaicín (público,propio)",albaicin,4
+"jardín (público,común)",garden,4
+"mercado (consumo, establecimiento)",market,4
+"montaña  (espacio natural, común)",mountains,4
+"gibralfaro (monumento, propio)",gibralfaro,3
+"giralda (monumento, propio)",giralda,3
+"itálica (monumento, propio)",italica,3
+"iglesia (monumento, común)",churches,3
+"triana (público,propio)",triana,3
+"barrio (público,común)",quarters,3
+"ciudad (público,común)",cities,3
+"hotel (consumo, establecimiento)",hotel,3
+"sierra nevada  (espacio natural, propio)",sierra nevada,3
+"patio los naranjos (monumento, propio)",patio de los naranjos,2
+"capilla (monumento, común)",chapels,2
+"catedral (monumento, común)",catedral,2
+"ruina (monumento, común)",ruins,2
+"malagueta (público,propio)",malagueta,2
+"casa (público,común)",dwelling,2
+"casa (público,común)",dwellings,2
+"casa (público,común)",casa,2
+"patio (público,común)",courts,2
+"patio (público,común)",courtyard,2
+"plaza (público,común)",plaza,2
+"paseo (público,común)",paseo,2
+"capa española (consumo, objeto)",capa,2
+"tabaco (consumo, alimentación)",cigarette,2
+"mercado (consumo, establecimiento)",mercado,2
+"Carruaje (viaje, transporte)",carriage,2
+"toro (viaje, animal)",bull,2
+"caballo (viaje, animal)",horses,2
+"burro (viaje, animal)",donkeys,2
+"guadalete  (espacio natural, propio)",guadalete,2
+"montaña  (espacio natural, común)",mountain,2
+"rio  (espacio natural, común)",rivers,2
+"cobre (espacio natural, común)",copper,2
+"generalife (monumento, propio)",generalife,1
+"patio los leones (monumento, propio)",court of the lions,1
+"torre del oro (monumento, propio)",tower of gold,1
+"torre del oro (monumento, propio)",torre del oro,1
+"castillo (monumento, común)",castle,1
+"catedral (monumento, común)",cathedrals,1
+"claustro (monumento, común)",cloisters,1
+"puente (monumento, común)",bridges,1
+"puerto (monumento, común)",harbour,1
+"calle (público,común)",calle,1
+"ciudad (público,común)",towns,1
+"ciudad (público,común)",ciudad,1
+"parque (público,común)",park,1
+"parque (público,común)",parque,1
+"patio (público,común)",patios,1
+"plaza (público,común)",square,1
+"paseo (público,común)",promenade,1
+"molino (consumo, objeto)",mills,1
+"fuente (consumo, objeto)",fountains,1
+"peseta (consumo, objeto)",peseta,1
+"peseta (consumo, objeto)",pesetas,1
+"guitarra  (consumo, objeto)",guitar,1
+"vino (consumo, alimentación)",vino,1
+"tabaco (consumo, alimentación)",cigarettes,1
+"café  (consumo, alimentación)",café,1
+"uva (consumo, alimentación)",grapes,1
+"Carruaje (viaje, transporte)",carriages,1
+"caballo (viaje, animal)",horse,1
+"burro (viaje, animal)",donkey,1
+"mula (viaje, animal)",mule,1
+"genil  (espacio natural, propio)",genil,1
+"mulhacén  (espacio natural, propio)",mulhacen,1
+"sol (espacio natural, común)",sol,1
