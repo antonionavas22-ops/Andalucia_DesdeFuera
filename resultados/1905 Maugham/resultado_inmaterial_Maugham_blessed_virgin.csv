@@ -1,0 +1,162 @@
+principal,variantes,menciones
+"hombre (género, masculino)",man,80
+"bueno (característica, general)",good,46
+"mujer (género, femenino)",woman,46
+"amor  (característica, general)",love,43
+"hombre (género, masculino)",men,40
+"moro (grupos, externo)",moorish,40
+"mujer (género, femenino)",women,39
+"señor (género, masculino)",don,28
+"belleza (característica, general)",beautiful,27
+"belleza (característica, general)",beauty,23
+"frío (característica, general)",cold,22
+"dios (característica, general)",god,22
+"moro (grupos, externo)",moors,21
+"rico (característica, general)",rich,20
+"pobre (característica, general)",poor,19
+"señora (género, femenino)",lady,19
+"baile (fiestas, feria y carnaval)",dance,19
+"chica (género, femenino)",girl,17
+"chica (género, femenino)",girls,17
+"camino  (característica, general)",road,15
+"virgen  (característica, general)",virgin,14
+"oriental (grupos, externo)",oriental,14
+"viajero (característica, general)",traveller,12
+"aguador (oficio, campo y ciudad)",aguador,12
+"matador (oficio, toreo)",matador,12
+"feria  (fiestas, feria y carnaval)",fair,12
+"calor  (característica, general)",heat,11
+"pintoresco (característica, general)",picturesque,11
+"religioso  (característica, personalidad)",religious,11
+"chico (género, masculino)",boys,11
+"camino  (característica, general)",path,10
+"santo/a  (característica, general)",saint,10
+"guapo (característica, personalidad)",handsome,10
+"belleza (característica, general)",pretty,9
+"mendigo (grupos, interno)",beggars,9
+"corrida/toreo (fiestas, toreo)",bull-fight,9
+"terrible (característica, general)",terrible,8
+"virgen  (característica, general)",santa,8
+"campesino (oficio, campo y ciudad)",peasant,8
+"árabe (grupos, externo)",arab,8
+"alegría  (característica, general)",joy,7
+"calor  (característica, general)",hot,7
+"viajero (característica, general)",travellers,7
+"dios (característica, general)",dios,7
+"encantador (característica, personalidad)",delightful,7
+"señora (género, femenino)",ladies,7
+"maravilloso (característica, general)",wonderful,6
+"calor  (característica, general)",warmth,6
+"viaje  (característica, general)",journey,6
+"ole (característica, general)",ole,6
+"chico (género, masculino)",boy,6
+"picador  (oficio, toreo)",picador,6
+"picador  (oficio, toreo)",picadors,6
+"mendigo (grupos, interno)",beggar,6
+"moro (grupos, externo)",moor,6
+"malo (característica, general)",bad,5
+"santo  (característica, general)",san,5
+"orgullO/so (característica, general)",pride,5
+"árabe (grupos, externo)",arabic,5
+"ilusión (característica, general)",hope,4
+"aburrido (característica, general)",bored,4
+"miedo  (característica, general)",fear,4
+"camino  (característica, general)",highway,4
+"orgullO/so (característica, general)",proud,4
+"tradición (característica, general)",custom,4
+"fiesta (característica, general)",feast,4
+"alegre-amable (característica, personalidad)",friendly,4
+"caridad  (característica, personalidad)",charity,4
+"torero  (oficio, toreo)",toreros,4
+"gitano (grupos, interno)",gipsy,4
+"árabe (grupos, externo)",arabian,4
+"maravilloso (característica, general)",amazing,3
+"odio  (característica, general)",hate,3
+"caridad  (característica, personalidad)",charitable,3
+"honestidad (característica, personalidad)",honest,3
+"perezoso (característica, personalidad)",lazy,3
+"chica (género, femenino)",chica,3
+"chico (género, masculino)",chico,3
+"señor (género, masculino)",gentlemen,3
+"vendedor (oficio, campo y ciudad)",sellers,3
+"banderillero  (oficio, toreo)",banderilleros,3
+"vagabundo (grupos, interno)",tramp,3
+"musulmán (grupos, externo)",muslims,3
+"corrida/toreo (fiestas, toreo)",corrida,3
+"corrida/toreo (fiestas, toreo)",bull-fighting,3
+"tristeza (característica, general)",sadness,2
+"camino  (característica, general)",route,2
+"viaje  (característica, general)",travel,2
+"viajero (característica, general)",tourist,2
+"exótico (característica, general)",exotic,2
+"divertido (característica, general)",funny,2
+"alegre-amable (característica, personalidad)",joyful,2
+"chulo (característica, personalidad)",chulos,2
+"hospitalario (característica, personalidad)",hospitable,2
+"violento  (característica, personalidad)",violent,2
+"guapa (característica, personalidad)",pretty girl,2
+"hombre (género, masculino)",hombre,2
+"señor (género, masculino)",gentleman,2
+"señor (género, masculino)",señor,2
+"pescador (oficio, campo y ciudad)",fisherman,2
+"pastor (oficio, campo y ciudad)",shepherd,2
+"pastor (oficio, campo y ciudad)",shepherds,2
+"vendedor (oficio, campo y ciudad)",seller,2
+"guardia civil (oficio, seguridad)",civil guard,2
+"gitano (grupos, interno)",gipsies,2
+"mendigo (grupos, interno)",mendicants,2
+"árabe (grupos, externo)",arabs,2
+"musulmán (grupos, externo)",muslim,2
+"zarzuela (fiestas, feria y carnaval)",zarzuela,2
+"flamenco (fiestas, feria y carnaval)",flamenco,2
+"flamenco (fiestas, feria y carnaval)",flamenca,2
+"corpus christi  (fiestas, religión)",corpus christi,2
+"procesión (fiestas, religión)",procession,2
+"semana santa  (fiestas, religión)",holy week,2
+"corrida/toreo (fiestas, toreo)",bull-fights,2
+"belleza (característica, general)",beauties,1
+"expectación (característica, general)",anticipation,1
+"desilusión (característica, general)",disillusionment,1
+"maravilloso (característica, general)",marvellous,1
+"terrible (característica, general)",awful,1
+"asco (característica, general)",disgust,1
+"confianza (característica, general)",trust,1
+"sorpresa  (característica, general)",surprise,1
+"calor  (característica, general)",sunny,1
+"tertulia  (característica, general)",gathering,1
+"camino  (característica, general)",roads,1
+"camino  (característica, general)",camino,1
+"viaje  (característica, general)",journeys,1
+"virgen  (característica, general)",virgen,1
+"pobre (característica, general)",pobre,1
+"rico (característica, general)",riches,1
+"tradición (característica, general)",tradition,1
+"alegre-amable (característica, personalidad)",cheerful,1
+"cortejo (característica, personalidad)",novio,1
+"cortejo (característica, personalidad)",novia,1
+"generoso (característica, personalidad)",generous,1
+"honestidad (característica, personalidad)",honesty,1
+"patriota (característica, personalidad)",patriotic,1
+"guason (característica, personalidad)",guason,1
+"chico (género, masculino)",niño,1
+"señor (género, masculino)",caballero,1
+"señor (género, masculino)",senior,1
+"campesino (oficio, campo y ciudad)",peasants,1
+"hacedor (oficio, campo y ciudad)",maker,1
+"jardinero (oficio, campo y ciudad)",gardener,1
+"peinadora (oficio, campo y ciudad)",peinadora,1
+"torero  (oficio, toreo)",torero,1
+"banderillero  (oficio, toreo)",banderillero,1
+"cuadrilla  (oficio, toreo)",cuadrillas,1
+"sereno (oficio, seguridad)",watchman,1
+"alguacil (oficio, seguridad)",alguaciles,1
+"bandolero (grupos, interno)",bandit,1
+"bandolero (grupos, interno)",bandits,1
+"mendigo (grupos, interno)",mendicant,1
+"vagabundo (grupos, interno)",vagabonds,1
+"bolero (fiestas, feria y carnaval)",bolero,1
+"bolero (fiestas, feria y carnaval)",boleros,1
+"fandango (fiestas, feria y carnaval)",fandangos,1
+"paso (fiestas, religión)",paso,1
+"novillada (fiestas, toreo)",novilladas,1
+"encierro (fiestas, toreo)",encierro,1
