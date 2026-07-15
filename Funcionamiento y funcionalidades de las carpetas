@@ -2,12 +2,12 @@ Resultados de los 15 relatos de viaje anglosajones que describieron Andalucía e
 
 De las carpetas creadas, la distribución y función se ha realizado de dos modos:
 
-En primer lugar, las carpetas con el análisis individual de las 15 obras principales en 4 categorías principales: localidades, patrimonio material, patrimonio inmaterial y análisis de sentimientos.
+En primer lugar, las carpetas con el análisis individual de las 15 obras principales en 4 categorías principales: localidades y gentilicios, patrimonio material, patrimonio inmaterial y análisis de sentimientos.
 De este modo, las carpetas según las fases del análisis son:
 
 books (relatos filtrados con contenidos andaluces, pero sin resultados)
 scripts (todos los comandos y funciones que nos va a dar los resultados para las tres categorías)
-sresultados (resultados en bruto)
+resultados (resultados en bruto)
 gráficas (representación de los resultados). En este se incluye gráficas  externas de R sobre el análisis de sentimientosn
 recogito (mapas de georreferencia de las localidades detectadas)
 No obstante, cada carpeta de este tipo, antes de acceeder al relato específicos, hay tres subcarpetas cronológicas a la que se asocia el relato de viaje: 1900-1905, 1906-1910 y 19111-1914.
@@ -17,3 +17,6 @@ En segundo lugar, las carpetas que hacen el análisis total de las 15 obras, lis
 jerarquía (categorías, subctaegorías y apartados específicos de las loclaidades, patrimonio material e inmaterial)
 Normalización (palabras con variantes y principales normalziadas en localidades, patrimonio material e inmaterial)
 relaciones totales (desglose en bruto de todas las palabras, y su relación con cada realtro y totales en localiades, patrimonio material e inmaterial)
+
+***^*
+Por último, se añade el enálisis de sentimientos de forma individualizadas. No se ha podido analizar en el trabajo, pero aquí ae alojan todos sus resultados visuales
